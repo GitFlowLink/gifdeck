@@ -1,0 +1,50 @@
+{
+	"$schema": "https://schemas.elgato.com/streamdeck/plugins/manifest.json",
+	"Name": "GifDeck",
+	"Version": "0.1.0.0",
+	"Author": "GitFlowLink",
+	"Actions": [
+		{
+			"Name": "GIF Player",
+			"UUID": "dev.gitflowlink.gifdeck.player",
+			"Icon": "imgs/action",
+			"Tooltip": "Play an animated GIF on this key, with an optional command on press.",
+			"PropertyInspectorPath": "ui/gif-player.html",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/key",
+					"TitleAlignment": "middle"
+				}
+			]
+		}
+	],
+	"Category": "GifDeck",
+	"CategoryIcon": "imgs/category",
+	"CodePath": "bin/plugin.js",
+	"Icon": "imgs/plugin",
+	"SDKVersion": 2,
+	"Software": {
+		"MinimumVersion": "6.5"
+	},
+	"OS": [
+		{
+			"Platform": "linux",
+			"MinimumVersion": "1.0"
+		},
+		{
+			"Platform": "mac",
+			"MinimumVersion": "12"
+		},
+		{
+			"Platform": "windows",
+			"MinimumVersion": "10"
+		}
+	],
+	"Nodejs": {
+		"Version": "20"
+	},
+	"UUID": "dev.gitflowlink.gifdeck"
+}

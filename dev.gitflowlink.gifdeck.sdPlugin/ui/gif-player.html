@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+	<head lang="en">
+		<title>GifDeck Settings</title>
+		<meta charset="utf-8" />
+		<script src="https://sdpi-components.dev/releases/v3/sdpi-components.js"></script>
+	</head>
+	<body>
+		<sdpi-item label="GIF path">
+			<sdpi-textfield setting="gifPath" placeholder="click Browse or paste a path"></sdpi-textfield>
+		</sdpi-item>
+		<sdpi-item label="">
+			<sdpi-button id="browse">Browse…</sdpi-button>
+		</sdpi-item>
+		<sdpi-item label="Command">
+			<sdpi-textfield setting="command" placeholder="optional, runs on key press"></sdpi-textfield>
+		</sdpi-item>
+		<sdpi-item label="Speed">
+			<sdpi-range setting="speed" min="0.25" max="4" step="0.25" default="1" showlabels></sdpi-range>
+		</sdpi-item>
+
+		<script>
+			document.getElementById("browse").addEventListener("click", () => {
+				SDPIComponents.streamDeckClient.send("sendToPlugin", { event: "browse" });
+			});
+		</script>
+	</body>
+</html>

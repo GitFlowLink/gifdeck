@@ -1,0 +1,4 @@
+node_modules/
+dev.gitflowlink.gifdeck.sdPlugin/bin/
+*.streamDeckPlugin
+.DS_Store

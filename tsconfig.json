@@ -1,0 +1,10 @@
+{
+	"extends": "@tsconfig/node20/tsconfig.json",
+	"compilerOptions": {
+		"moduleResolution": "Node",
+		"useDefineForClassFields": false,
+		"rootDir": "src",
+		"outDir": "dev.gitflowlink.gifdeck.sdPlugin/bin"
+	},
+	"include": ["src/**/*"]
+}

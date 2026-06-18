@@ -1,0 +1,29 @@
+{
+  "name": "gifdeck",
+  "version": "0.1.0",
+  "description": "Play animated GIFs on Stream Deck / OpenDeck keys, with an optional command on key press",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w --watch.onEnd=\"streamdeck restart dev.gitflowlink.gifdeck\""
+  },
+  "license": "MIT",
+  "author": "GitFlowLink",
+  "dependencies": {
+    "@elgato/streamdeck": "^1.0.0",
+    "gifuct-js": "^2.1.2",
+    "pngjs": "^7.0.0"
+  },
+  "devDependencies": {
+    "@elgato/cli": "^1.0.0",
+    "@rollup/plugin-commonjs": "^28.0.0",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "@rollup/plugin-typescript": "^12.1.0",
+    "@tsconfig/node20": "^20.1.4",
+    "@types/node": "^20.16.0",
+    "@types/pngjs": "^6.0.5",
+    "rollup": "^4.24.0",
+    "tslib": "^2.7.0",
+    "typescript": "^5.6.0"
+  }
+}
