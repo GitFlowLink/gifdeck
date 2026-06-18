@@ -1,5 +1,7 @@
 # GifDeck
 
+![demo](demo.gif)
+
 Play **animated GIFs** on your Stream Deck / OpenDeck keys — with an optional command fired on key press.
 
 The Stream Deck SDK's `setImage` doesn't support animated formats. GifDeck works around this the same way Elgato's own animated plugins do: it decodes the GIF into individual frames once, then cycles them onto the key with `setImage` on a timer driven by each frame's real delay. The result is smooth animation on any device OpenDeck supports — including non-Elgato hardware like the Mirabox N3.
