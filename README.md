@@ -70,4 +70,4 @@ TypeScript · Elgato Stream Deck SDK v1 · gifuct-js · pngjs · Rollup
 
 ## License
 
-MIT
+[MIT](LICENSE) © 2026 Vladimir (GitFlowLink)
