@@ -1,6 +1,16 @@
 # GifDeck
 
-![demo](demo.gif)
+<p align="center">
+  <img src="https://img.shields.io/badge/platform-Linux%20%7C%20macOS%20%7C%20Windows-blue" alt="platform"/>
+  <img src="https://img.shields.io/badge/typescript-5.6-3178c6?logo=typescript&logoColor=white" alt="typescript"/>
+  <img src="https://img.shields.io/badge/OpenDeck-compatible-brightgreen" alt="opendeck"/>
+  <img src="https://img.shields.io/badge/license-MIT-green" alt="license"/>
+</p>
+
+<p align="center">
+  <img src="demo.gif" alt="GifDeck demo" width="600"/>
+</p>
+
 
 Play **animated GIFs** on your Stream Deck / OpenDeck keys — with an optional command fired on key press.
 
